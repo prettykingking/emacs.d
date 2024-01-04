@@ -32,8 +32,9 @@
 (require 'key-bindings)
 
 ;; Set up site packages
-(require 'setup-paredit)
 (require 'undo-tree)
+(require 'setup-paredit)
+(require 'setup-company)
 
 ;; Misc
 ;; Are we on a mac?

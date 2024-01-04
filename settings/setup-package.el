@@ -16,6 +16,7 @@
         undo-tree
         compat ; paren-face
         paren-face
+        company
         ))
 
 ;; Install extensions if they're missing
