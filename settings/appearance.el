@@ -24,7 +24,10 @@
 
 ;; Set face after theme is loaded for customization
 ;; Set font to SF Mono, the optimal monospaced font on Mac
-(set-face-attribute 'default nil :font "SF Mono" :height 120)
+(set-face-attribute 'default nil :font "JetBrains Mono" :height 120)
+;; fallback font for CJK languages
+;; see https://www.gnu.org/software/emacs/manual/html_node/emacs/Modifying-Fontsets.html
+(set-fontset-font "fontset-default" 'han "PingFang SC")
 
 ;; Customize cursor type
 ;; see https://protesilaos.com/codelog/2022-04-15-emacs-cursory-package/
