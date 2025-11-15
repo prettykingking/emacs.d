@@ -24,7 +24,7 @@
 
 ;; Set face after theme is loaded for customization
 ;; Set font to SF Mono, the optimal monospaced font on Mac
-(set-face-attribute 'default nil :font "TX-02" :height 120)
+(set-face-attribute 'default nil :font "TX-02 Retina" :height 120)
 ;; fallback font for CJK languages
 ;; see https://www.gnu.org/software/emacs/manual/html_node/emacs/Modifying-Fontsets.html
 (set-fontset-font "fontset-default" 'han "PingFang SC")
